@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url(https://oceanservice.noaa.gov/facts/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    background:rgb(6, 65, 104,0.4);
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+ul li{
+    list-style: none;
+    display:flex;
+    margin:10px;
+    padding:20px;
+}
+ul li:hover{
+    background:darkblue;
+    padding:10px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+ul{
+    display:flex;
+}
+.about{
+    background:rgb(6, 65, 104,0.6);
+    color:white;
+    height:50vh;
+    width:25%;
+    font-size: 25px;
+    margin-top:8%;
+}
+.about h1{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+
+  
+}
+.about p{
+    margin-top:50px;
+}
+.About{
+    justify-content: space-between;
+    display:flex;
+}
+.more{
+    display:flex;
+    justify-content: center;
+    margin-top:35px;
+}
+.more h3{
+    background:rgb(6, 65, 104,0.9);
+    padding:10px;
+}
+h3{
+    cursor: pointer;
+
+}
+h3:hover{
+    background:darkcyan;
+}
