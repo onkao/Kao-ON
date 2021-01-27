@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background:url(images/background.jpg);
+    background:url(https://cloud.fullstackacademy.com/code-and-headphones-1.jpg?mtime=20200730134602);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -48,4 +48,18 @@ footer{
     padding:40px;
     font-size: 100%;
 
+}
+h1{
+   
+    font-size: 50px;
+    color:white;
+    background:rgba(18, 35, 71, 0.2);
+    width:50%;
+    height:20vh;
+
+}
+.home{
+    display:flex;
+    align-items: center;
+    margin-top:10%;
 }

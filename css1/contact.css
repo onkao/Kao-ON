@@ -23,13 +23,20 @@ h1{
     color:white;
   }
   input[type=submit]{
-    width:50%;
+    height: 5vh;
+    width:200px;
+    background:rgba(18, 35, 71, 0.8);
+    outline: none;
+    color:white;
   }
-  
+  input[type="submit"]:hover{
+    background:darkblue;
+  }
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     color:white;
+    font-weight: 200px;
   }
   
 .container{
