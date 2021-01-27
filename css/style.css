@@ -14,12 +14,15 @@ body{
     padding: 10px;
     background-color: rgba(18, 35, 71, 0.3);
     font-family: sans-serif;
-
+    position: sticky;
+    top:0;
 }
 ul{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    position: sticky;
+    top:0;
 }
 ul li{
     padding:10px;
@@ -34,19 +37,6 @@ ul li a{
     text-decoration: none;
     color:white;
     cursor: pointer;
-
-}
-footer{
-    color:white;
-    font-family: sans-serif;
-    display:flex;
-    align-items:flex-end;
-    justify-content: center;
-    margin-top:100%;
-    background-color: rgba(18, 35, 71, 0.4);
-    text-transform: uppercase;
-    padding:40px;
-    font-size: 100%;
 
 }
 h1{

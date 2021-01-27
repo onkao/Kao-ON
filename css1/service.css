@@ -12,6 +12,8 @@ body{
     display: flex;
     justify-content: flex-end;
     font-family: sans-serif;
+    position: sticky;
+    top:0;
 }
 ul li{
     list-style: none;
@@ -33,6 +35,8 @@ ul li a{
 }
 ul{
     display:flex;
+    position:sticky;
+    top:0;
 }
 .about{
     background:rgb(6, 65, 104,0.6);
@@ -40,7 +44,8 @@ ul{
     height:50vh;
     width:25%;
     font-size: 25px;
-    margin-top:8%;
+    margin-top:5%;
+    height:60vh;
 }
 .about h1{
     display: flex;
@@ -55,6 +60,7 @@ ul{
 .About{
     justify-content: space-between;
     display:flex;
+    
 }
 .more{
     display:flex;
