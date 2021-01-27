@@ -23,7 +23,6 @@ ul li{
 }
 ul li:hover{
     background:darkblue;
-    padding:10px;
 }
 ul li a{
     text-decoration: none;

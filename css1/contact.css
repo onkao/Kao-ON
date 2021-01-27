@@ -62,7 +62,6 @@ ul li{
 }
 ul li:hover{
     background:darkblue;
-    padding:20px;
 }
 ul li a{
     text-transform: uppercase;
