@@ -1,8 +1,9 @@
 h1{
     display:flex;
     justify-content: center;
-    color:blue;
-    font-size:30px;
+    color:white;
+    font-size:70px;
+    text-transform: uppercase;
 }
 * {
     box-sizing: border-box;
@@ -10,17 +11,17 @@ h1{
   body{
       background:url(https://oceanservice.noaa.gov/facts/sea.jpg);
       background-repeat: no-repeat;
-      background-size:100%;
+      background-size:cover;
 
   }
   
-  input[type=text]{
+  input[type=text],textarea{
     width: 400%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    color:white;
+    color:black;
     font-family: sans-serif;
   }
   input[type=submit]{
@@ -53,7 +54,7 @@ h1{
 }
 ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style: none;
 }
 ul li{
@@ -74,7 +75,24 @@ ul li a{
   display:flex;
   justify-content: space-between;
 }
-  
-
+.icon{
+  display:flex;
+  justify-content: center;
+  margin-top:20%;
+  padding:5px;
+}
+a{
+  padding:20px;
+}
+.footer{
+  background:rgba(18, 35, 71, 0.3);
+}
+p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+}
 
 
